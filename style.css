@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.parent{
+    width: 100%;
+    height: 80vh;
+    background: url(images/back-Header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    position: relative;
+}
+.parent-2{
+    width: 100%;
+    height: 80vh;
+    background: url(images/back-section.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    position: relative;
+}
+@media (max-width: 767px) {
+    .text-xs-center {
+      text-align: center;
+    } 
+  }
+.w-98{
+    width: 96%;
+  }
+  .w-text{
+    width: 20vw;
+  }
+.text-xs-center{
+    text-align: center;
+}
+.text{
+    color: whitesmoke;
+    text-align: center;
+}
+.text-left{
+    color: whitesmoke;
+    text-align: left;
+}
+.text-right{
+    color: whitesmoke;
+    text-align: right;
+}
+.text-left-nocolor{
+    text-align: left;
+}
+.text-right-nocolor{
+    text-align: right;
+}
+.text-red{
+    color: #fb414e;
+}
+.text-gray{
+    color: #979797;
+}
+.center{
+    position: absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.center-2{
+    position: absolute;
+    top: 550%;
+    left: 10%;
+    transform: translate(60%,60%);
+}
+.f-bold{
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+}
+.f-Rubik{
+font-family: 'Rubik',sans-serif;
+}
+.f-Rubik-500{
+    font-family: 'Rubik',sans-serif;
+    font-weight: 500;
+}
+
+.btn-sharp{
+    border-radius: 0;
+}
+.services{
+    position: relative;
+    top:-100px;
+}
+.service-red{
+   background-color: #fb414e;
+}
+.service-dark{
+    background-color: #202b2f;
+}
+.service-light{
+    background-color: #f8f8f8;
+}
+.color-red{
+color:  #fb414e;
+}
+.text-gray-5e{
+    color: #5e5e5e;
+}
+.pb-8{
+    padding-bottom: 4rem !important;
+}
+.pl-28r{
+    padding-left: 2.8rem !important;
+}
+.ml-2-5{
+  margin-left: 0.7rem !important;
+}
+.ml-25r{
+    margin-left: 25rem !important;
+}
+.ml-10r{
+    margin-left: 10rem !important;
+}
+.ml-8r{
+    margin-left: 8.5rem !important;
+}
+.ml-md-10r{
+    margin-left: 10rem !important;
+}
+.mt-5r{
+    margin-top: 5rem !important;
+}
+.form-borders{
+    border-style:solid;
+    border-color: black;
+}
+input[type=text]:focus {
+    box-shadow: 0 0 5px #fb414e;
+    border: 1px solid #fb414e;
+}
+input[type=email]:focus {
+    box-shadow: 0 0 5px #fb414e;
+    border: 1px solid #fb414e;
+}
+.form:focus{
+    box-shadow: 0 0 5px #fb414e;
+    border: 1px solid #fb414e;
+}
+li > a{
+    justify-content: space-between;
+    font-family: 'Rubik',sans-serif;
+    color: whitesmoke;
+    padding: 1.5em !important;
+}
+li>a:hover{
+    
+    border-bottom: 1px solid #fb414e;
+}
+
+
+
+
